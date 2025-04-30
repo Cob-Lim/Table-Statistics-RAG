@@ -34,7 +34,7 @@ This project builds a **Question Answering (QA) chatbot** from a PDF document th
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component       | Tool/Service               |
 |----------------|----------------------------|
