@@ -9,6 +9,8 @@ This project builds a **Question Answering (QA) chatbot** from a PDF document th
 ### 1. PDF Preprocessing
 - Extracted structured and unstructured content from PDF (including **tables** and **paragraphs**).
 - Used `camelot` to retain table structure as **flattened Markdown or CSV-style text** for improved chunking and parsing.
+- The dataset originated from a worksheet I encountered while learning Chinese in Taiwan. It contained both tabular and textual information relevant to multiple countries, which made it an ideal candidate for QA transformation.
+
 
 ### 2. Chunking Strategy
 - After extracting text and tables from the PDF, we **split the tables by row**, especially for datasets involving multiple countries.
